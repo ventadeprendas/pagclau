@@ -1,0 +1,94 @@
+.imagenc {
+    width: 50%;
+    height: 600px;
+}
+
+body {
+    background-color: #ffadeb; /* Cambia este valor por el color que prefieras */
+  }
+
+.color {
+background-color: rgb(250, 144, 245);
+}
+
+.btn-custom {
+    background-color: #ffe3f9; /* Cambia a tu color preferido */
+    color: rgb(235, 0, 145);
+  }
+  .btn-custom:hover {
+    background-color: #ff67cc; /* Color al pasar el cursor */
+  }
+
+
+btn btn-secondary dropdown-toggle {
+background-color: rgb(255, 250, 253);
+color: white; 
+border: none; 
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.nav-link  {
+    color: rgb(255, 0, 212);
+}
+
+.barra-superior {
+    background-color: rgb(245, 123, 180);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@keyframes color {
+    0% { text-shadow: 0 0 5px violet; }
+    50% { text-shadow: 0 0 20px pink; }
+    100% { text-shadow: 0 0 5px rgb(247, 24, 146); }
+}
+
+.barra-superior h1 {
+    font-size: 70px;
+    animation: color 1s infinite;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.custom-btn {
+    background-color: pink;
+    border-color: pink;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #ff69b4; /* Color rosa más oscuro al pasar el ratón */
+    border-color: #ff69b4;
+}
+
+
+.cards-container {
+justify-content: center;
+}
+
+.card {
+margin: 10px;
+}
+
+.btn-primary {
+background-color: rgb(248, 0, 153);
+border-color: pink;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #ff69b4; /* Color rosa más oscuro al pasar el ratón */
+border-color: #f1479c;
+}
+.btn btn-primary {
+    margin: 0 auto;
+  }
